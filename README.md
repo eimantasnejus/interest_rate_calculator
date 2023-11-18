@@ -22,10 +22,31 @@ cp core/django_starter/settings/templates/settings.dev.py ./local/settings.dev.p
 
 ## Usage
 
-```python
-import wip
+Start the database:
+```bash
+docker compose -f docker-compose.dev.yml up db
 ```
 
+Reinstall psycopg2-binary:
+```bash
+poetry remove psycopg2-binary
+poetry add psycopg2-binary
+```
+
+Apply migrations:
+```bash
+make migrate
+```
+
+Create superuser:
+```bash
+make superuser
+```
+
+Run the server:
+```bash
+make run-server
+```
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
