@@ -13,6 +13,7 @@ django-filter = "^23.3"
 django-split-settings = "^1.2.0"
 pyyaml = "^6.0.1"
 psycopg2-binary = "^2.9.9"
+drf-spectacular = "^0.26.5"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.1.0"
