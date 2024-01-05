@@ -6,7 +6,7 @@ services:
     image: postgres:14.2-alpine
     restart: unless-stopped
     ports:
-      - '9432:5432'
+      - '10432:5432'
     environment:
       POSTGRES_DB: django_app
       POSTGRES_USER: django

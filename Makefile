@@ -19,6 +19,10 @@ migrations:
 run-server:
 	poetry run python -m core.manage runserver
 
+.PHONY: show_urls
+show_urls:
+	poetry run python -m core.manage show_urls
+
 .PHONY: shell
 shell:
 	poetry run python -m core.manage shell

@@ -1,23 +1,31 @@
+import os
+
 DEBUG = False
 SECRET_KEY = NotImplemented
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    # Django apps
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # 3rd party
     "drf_spectacular",
+    "debug_toolbar",
+    "django_extensions",
+    # Local apps
     "core.calculator.apps.CalculatorConfig",
 ]
 
 MIDDLEWARE = [
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -32,7 +40,7 @@ ROOT_URLCONF = "core.django_starter.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, "templates")],  # noqa: F821
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -41,6 +49,7 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
             ],
+            "debug": True,
         },
     },
 ]
@@ -58,11 +67,13 @@ DATABASES = {
         "USER": "django",
         "PASSWORD": "django",
         "HOST": "localhost",
-        "PORT": "9432",
+        "PORT": "10432",
         "ATOMIC_REQUESTS": True,
         "CONN_MAX_AGE": 0,
     }
 }
+
+INTERNAL_IPS = ["127.0.0.1", "localhost"]
 
 
 REST_FRAMEWORK = {
