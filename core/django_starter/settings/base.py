@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     "django_extensions",
     # Local apps
     "core.calculator.apps.CalculatorConfig",
+    "core.ledger.apps.LedgerConfig",
 ]
 
 MIDDLEWARE = [

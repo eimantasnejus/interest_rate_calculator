@@ -40,5 +40,5 @@ class LoanView(TemplateView):
 
 
 def home(request):
-    loan_url = reverse('chart')  # 'chart' is the name of the LoanView route
+    loan_url = reverse("chart")  # 'chart' is the name of the LoanView route
     return HttpResponse(format_html("You're back home! <a href='{}'>Go to LoanView</a>", loan_url))
