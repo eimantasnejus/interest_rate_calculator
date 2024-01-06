@@ -19,6 +19,10 @@ migrations:
 run-server:
 	poetry run python -m core.manage runserver
 
+.PHONY: show_urls
+show_urls:
+	poetry run python -m core.manage show_urls
+
 .PHONY: shell
 shell:
 	poetry run python -m core.manage shell
@@ -35,3 +39,7 @@ test:
 up-depenencies-only:
 	test -f .env || touch .env
 	docker-compose -f docker-compose.dev.yml up -d --build --force-recreate db
+
+.PHONY: load-fixtures
+load-fixtures:
+	poetry run python -m core.manage loaddata subcategories

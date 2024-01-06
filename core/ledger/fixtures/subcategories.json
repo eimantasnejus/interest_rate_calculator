@@ -1,0 +1,386 @@
+[
+    {
+        "model": "ledger.subcategory",
+        "pk": 1,
+        "fields": {
+            "name": "Hobbies",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 2,
+        "fields": {
+            "name": "TV, music, streaming",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 3,
+        "fields": {
+            "name": "Charity",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 4,
+        "fields": {
+            "name": "Gifts",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 5,
+        "fields": {
+            "name": "Parties",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 6,
+        "fields": {
+            "name": "Culture, events",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 7,
+        "fields": {
+            "name": "Digital utilities, software",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 8,
+        "fields": {
+            "name": "Books, audiobooks, news, magazines",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 9,
+        "fields": {
+            "name": "Other",
+            "category": "life_and_entertainment"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 10,
+        "fields": {
+            "name": "Rent, mortgage",
+            "category": "home"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 11,
+        "fields": {
+            "name": "Energy, utilities",
+            "category": "home"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 12,
+        "fields": {
+            "name": "Home improvement",
+            "category": "home"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 13,
+        "fields": {
+            "name": "Furniture, appliances",
+            "category": "home"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 14,
+        "fields": {
+            "name": "Cleaning, supplies",
+            "category": "home"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 15,
+        "fields": {
+            "name": "Other",
+            "category": "home"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 16,
+        "fields": {
+            "name": "Salary",
+            "category": "income"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 17,
+        "fields": {
+            "name": "Selling",
+            "category": "income"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 18,
+        "fields": {
+            "name": "Rental, lending",
+            "category": "income"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 19,
+        "fields": {
+            "name": "Benefits",
+            "category": "income"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 20,
+        "fields": {
+            "name": "Other",
+            "category": "income"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 21,
+        "fields": {
+            "name": "Interest, dividends",
+            "category": "income"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 22,
+        "fields": {
+            "name": "Public transport",
+            "category": "transport"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 23,
+        "fields": {
+            "name": "Taxi, car sharing",
+            "category": "transport"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 24,
+        "fields": {
+            "name": "Fuel",
+            "category": "transport"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 25,
+        "fields": {
+            "name": "Car maintenance",
+            "category": "transport"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 26,
+        "fields": {
+            "name": "Other",
+            "category": "transport"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 27,
+        "fields": {
+            "name": "Groceries",
+            "category": "food_and_drink"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 28,
+        "fields": {
+            "name": "Restaurants, cafes, delivery",
+            "category": "food_and_drink"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 29,
+        "fields": {
+            "name": "Alcohol, tobacco",
+            "category": "food_and_drink"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 30,
+        "fields": {
+            "name": "Other",
+            "category": "food_and_drink"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 31,
+        "fields": {
+            "name": "Health care, doctor, pharmacy",
+            "category": "health_and_education"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 32,
+        "fields": {
+            "name": "Wellness, beauty",
+            "category": "health_and_education"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 33,
+        "fields": {
+            "name": "Education, training",
+            "category": "health_and_education"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 34,
+        "fields": {
+            "name": "Fitness, sports",
+            "category": "health_and_education"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 35,
+        "fields": {
+            "name": "Other",
+            "category": "health_and_education"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 36,
+        "fields": {
+            "name": "Clothing, shoes, accessories",
+            "category": "shopping"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 37,
+        "fields": {
+            "name": "Electronics, gadgets",
+            "category": "shopping"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 38,
+        "fields": {
+            "name": "Gifts, charity",
+            "category": "shopping"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 39,
+        "fields": {
+            "name": "Other",
+            "category": "shopping"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 40,
+        "fields": {
+            "name": "Other",
+            "category": "pets"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 41,
+        "fields": {
+            "name": "Real estate",
+            "category": "investments"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 42,
+        "fields": {
+            "name": "Stocks, funds",
+            "category": "investments"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 43,
+        "fields": {
+            "name": "Pension",
+            "category": "investments"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 44,
+        "fields": {
+            "name": "Other",
+            "category": "investments"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 45,
+        "fields": {
+            "name": "Insurance",
+            "category": "financial_expenses"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 46,
+        "fields": {
+            "name": "Bank fees",
+            "category": "financial_expenses"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 47,
+        "fields": {
+            "name": "Other",
+            "category": "financial_expenses"
+        }
+    },
+    {
+        "model": "ledger.subcategory",
+        "pk": 48,
+        "fields": {
+            "name": "Other",
+            "category": "other"
+        }
+    }
+]

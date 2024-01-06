@@ -5,7 +5,7 @@ from split_settings.tools import include, optional
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
-
+print(BASE_DIR)
 # Namespacing our own custom environment variables
 ENV_VAR_SETTINGS_PREFIX = "CORE_SETTINGS_"
 
