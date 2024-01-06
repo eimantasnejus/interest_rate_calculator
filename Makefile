@@ -39,3 +39,7 @@ test:
 up-depenencies-only:
 	test -f .env || touch .env
 	docker-compose -f docker-compose.dev.yml up -d --build --force-recreate db
+
+.PHONY: load-fixtures
+load-fixtures:
+	poetry run python -m core.manage loaddata subcategories
