@@ -7,6 +7,7 @@ from core.ledger.models import Account, ImportData, LedgerEntry, Subcategory
 
 admin.site.register(Account)
 
+
 @admin.register(Subcategory)
 class SubcategoryAdmin(admin.ModelAdmin):
     list_display = ("__str__", "category")
