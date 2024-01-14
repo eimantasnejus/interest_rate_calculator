@@ -39,6 +39,13 @@ class LoanView(TemplateView):
         return render(request, self.template_name, {"labels": labels, "data": data})
 
 
+class HomeView(TemplateView):
+    template_name = "dashboard.html"
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name)
+
+
 def home(request):
     loan_url = reverse("chart")  # 'chart' is the name of the LoanView route
     return HttpResponse(format_html("You're back home! <a href='{}'>Go to LoanView</a>", loan_url))

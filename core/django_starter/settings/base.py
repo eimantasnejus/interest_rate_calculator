@@ -1,4 +1,7 @@
+import mimetypes
 import os
+
+mimetypes.add_type("application/javascript", ".js", True)
 
 DEBUG = False
 SECRET_KEY = NotImplemented
